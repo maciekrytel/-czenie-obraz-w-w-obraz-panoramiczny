@@ -193,7 +193,6 @@ if('crop' in locals()):
     #na koniec pracy programu
     cv2.imwrite('panorama_sift.jpg',crop)
     print("[INFO] panorama gotowa")
-    image = cv2.imread('output.jpg')
     cv2.imshow("panorama", crop)
     cv2.waitKey(0)
 else:
